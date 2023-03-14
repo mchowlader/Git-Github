@@ -1,0 +1,64 @@
+Where i use double quatation that meas its not command its can any name,
+and double quatation not with the commands, double quatation for only understanding
+========================================================================================
+Enter any folder => cd "FolderName"
+One step back to folder => cd..
+Folder  create => mkdir "FolderName"
+if i want any folder open VS Code, 1st to need to enter that folde => cd "FolderName" ==>  code .
+
+how work git
+=================
+if you dont your file from working directory to stagging area,
+which means if your still your file working directory git has no idea what u r doing, thats file untrack
+Working Directiory => if your file have working directory that means your file is untrack
+Stagging Are => Git can track your file
+Working Directiory 			   => Stagging Area => Local Repo => Remote Repo
+localProjectFolder/test-folder => git add       => git commit => git push
+
+Git repo or git folder two step:
+1. Track
+2. UnTrack
+
+git config list => this command show your git credential
+
+==global git==
+git config --global user.name "userName" => new git login.need github/gitlab account
+git config --global user.email "sample@gmail.com" => double quatation must be need
+
+
+==locla folder git login==
+git config user.name "userName"
+git config user.email "sample@gmail"
+
+===Git===
+git status => check file status file track or not
+git init => 1st need to git initial
+
+git add fileName => file move to Working Directory to Stagging Area
+git add . => if u want to all/multiple files move to stagging area then need to dot(.)
+
+git diff => what change the file
+git restore fileName => before file move to stagging area if i want to go back to previous.
+
+===Git Version Controli===
+git commit -m "your message here with double quatation" => stagging area to local repository (-m means message)
+git log => you  can the commit version id 
+git log --oneline => small version of git log (show small id and message)
+
+===UnCommit===
+git reset --soft Head^ => stagging area to working directory use this cmd, if want undo commit. 
+git reset --hard Head^ => delete all the change you made or u want to go from local repository to wor directory.
+git checkout commit_idNumber => which version i want to go(idNumber can get using "git log --oneline" use this cmd)
+git checkout maseter => if u go current version to previous version and agin want to go current version u need to use this cmd
+
+git show commit_id/git show/ git show Head => all are same cmd for history of commit
+
+
+
+
+
+
+
+
+
+
